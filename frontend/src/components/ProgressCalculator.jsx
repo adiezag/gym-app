@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import RunnerV1 from "../assets/Runnerv1 2.gif";
+import RunnerV1 from "../assets/image3.gif";
 
 export default function ProgressCalculator() {
   const [previousMaxWeight, setPreviousMaxWeight] = useState("");
@@ -119,14 +119,14 @@ export default function ProgressCalculator() {
       {improvementPercentage !== null && (
         <div className="space-y-4 animate-fadeIn">
           {/* Celebration Animation */}
-          <div className="flex justify-center mb-4">
+          {/* <div className="flex justify-center mb-4">
             <img
               src={RunnerV1}
               alt="celebration"
               style={{ width: "80px", height: "80px" }}
               className="animate-bounce"
             />
-          </div>
+          </div> */}
 
           {/* Weight Gained */}
           {/* <div className="bg-slate-700 rounded p-4">
