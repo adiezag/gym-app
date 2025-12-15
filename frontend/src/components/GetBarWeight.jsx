@@ -151,6 +151,7 @@ export default function GetBarWeight() {
             value={plateQuantity}
             onChange={(e) => setPlateQuantity(e.target.value)}
             placeholder="Qty"
+            style={{ fontSize: "16px" }}
             className="w-20 bg-slate-600 border border-slate-500 rounded px-3 py-2 text-white placeholder-slate-400"
           />
 
