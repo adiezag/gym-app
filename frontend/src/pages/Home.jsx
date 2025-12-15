@@ -28,7 +28,7 @@ export default function Home() {
           >
             Progress Calculator
           </button>
-          {/* <button
+          <button
             onClick={() => setActiveTab("barWeight")}
             className={`px-6 py-2 rounded font-semibold transition ${
               activeTab === "barWeight"
@@ -37,7 +37,7 @@ export default function Home() {
             }`}
           >
             Bar Weight
-          </button> */}
+          </button>
         </div>
 
         {/* Component Render */}
